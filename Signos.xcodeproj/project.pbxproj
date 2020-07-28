@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3E073424C8EDAB00BD3D6A /* Signos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3E073324C8EDAB00BD3D6A /* Signos.swift */; };
+		CC65E9CE24BBB71D003E0B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC65E9CD24BBB71D003E0B33 /* AppDelegate.swift */; };
+		CC65E9D024BBB71D003E0B33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC65E9CF24BBB71D003E0B33 /* SceneDelegate.swift */; };
+		CC65E9D524BBB71D003E0B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC65E9D324BBB71D003E0B33 /* Main.storyboard */; };
+		CC65E9D724BBB721003E0B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC65E9D624BBB721003E0B33 /* Assets.xcassets */; };
+		CC65E9DA24BBB721003E0B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC65E9D824BBB721003E0B33 /* LaunchScreen.storyboard */; };
+		CC65E9E524BBB722003E0B33 /* SignosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC65E9E424BBB722003E0B33 /* SignosTests.swift */; };
+		CC65E9F024BBB722003E0B33 /* SignosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC65E9EF24BBB722003E0B33 /* SignosUITests.swift */; };
+		CC81151C24CB0EA2000EF1E7 /* SignosFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81151B24CB0EA2000EF1E7 /* SignosFactory.swift */; };
+		CCB9A36B24C64D460014CE4E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB9A36A24C64D460014CE4E /* DetailViewController.swift */; };
+		CCED6E0224BFB949002C5EEF /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCED6E0124BFB949002C5EEF /* ListTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC65E9E124BBB722003E0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC65E9C224BBB71D003E0B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC65E9C924BBB71D003E0B33;
+			remoteInfo = Signos;
+		};
+		CC65E9EC24BBB722003E0B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC65E9C224BBB71D003E0B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC65E9C924BBB71D003E0B33;
+			remoteInfo = Signos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC3E073324C8EDAB00BD3D6A /* Signos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signos.swift; sourceTree = "<group>"; };
+		CC65E9CA24BBB71D003E0B33 /* Signos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC65E9CD24BBB71D003E0B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = "<group>"; };
+		CC65E9CF24BBB71D003E0B33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Source/SceneDelegate.swift; sourceTree = "<group>"; };
+		CC65E9D424BBB71D003E0B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC65E9D624BBB721003E0B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC65E9D924BBB721003E0B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC65E9DB24BBB721003E0B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC65E9E024BBB722003E0B33 /* SignosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC65E9E424BBB722003E0B33 /* SignosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignosTests.swift; sourceTree = "<group>"; };
+		CC65E9E624BBB722003E0B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC65E9EB24BBB722003E0B33 /* SignosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC65E9EF24BBB722003E0B33 /* SignosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignosUITests.swift; sourceTree = "<group>"; };
+		CC65E9F124BBB722003E0B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC81151B24CB0EA2000EF1E7 /* SignosFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignosFactory.swift; sourceTree = "<group>"; };
+		CCB9A36A24C64D460014CE4E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CCED6E0124BFB949002C5EEF /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC65E9C724BBB71D003E0B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC65E9DD24BBB722003E0B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC65E9E824BBB722003E0B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624405CAF0BE532066EAB879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC3E073224C8ED8000BD3D6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E073324C8EDAB00BD3D6A /* Signos.swift */,
+				CC81151B24CB0EA2000EF1E7 /* SignosFactory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC65E9C124BBB71D003E0B33 = {
+			isa = PBXGroup;
+			children = (
+				CC65E9CC24BBB71D003E0B33 /* Signos */,
+				CC65E9E324BBB722003E0B33 /* SignosTests */,
+				CC65E9EE24BBB722003E0B33 /* SignosUITests */,
+				CC65E9CB24BBB71D003E0B33 /* Products */,
+				624405CAF0BE532066EAB879 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CC65E9CB24BBB71D003E0B33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC65E9CA24BBB71D003E0B33 /* Signos.app */,
+				CC65E9E024BBB722003E0B33 /* SignosTests.xctest */,
+				CC65E9EB24BBB722003E0B33 /* SignosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC65E9CC24BBB71D003E0B33 /* Signos */ = {
+			isa = PBXGroup;
+			children = (
+				CC65E9CD24BBB71D003E0B33 /* AppDelegate.swift */,
+				CC65E9CF24BBB71D003E0B33 /* SceneDelegate.swift */,
+				CC65E9FD24BFB645003E0B33 /* Source */,
+				CC65E9D624BBB721003E0B33 /* Assets.xcassets */,
+				CC65E9D324BBB71D003E0B33 /* Main.storyboard */,
+				CC65E9D824BBB721003E0B33 /* LaunchScreen.storyboard */,
+				CC65E9DB24BBB721003E0B33 /* Info.plist */,
+			);
+			path = Signos;
+			sourceTree = "<group>";
+		};
+		CC65E9E324BBB722003E0B33 /* SignosTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC65E9E424BBB722003E0B33 /* SignosTests.swift */,
+				CC65E9E624BBB722003E0B33 /* Info.plist */,
+			);
+			path = SignosTests;
+			sourceTree = "<group>";
+		};
+		CC65E9EE24BBB722003E0B33 /* SignosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC65E9EF24BBB722003E0B33 /* SignosUITests.swift */,
+				CC65E9F124BBB722003E0B33 /* Info.plist */,
+			);
+			path = SignosUITests;
+			sourceTree = "<group>";
+		};
+		CC65E9FD24BFB645003E0B33 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E073224C8ED8000BD3D6A /* Model */,
+				CC65E9FF24BFB6EC003E0B33 /* ListScream */,
+				CCB9A36924C64D220014CE4E /* Detail */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CC65E9FF24BFB6EC003E0B33 /* ListScream */ = {
+			isa = PBXGroup;
+			children = (
+				CCED6E0124BFB949002C5EEF /* ListTableViewController.swift */,
+			);
+			path = ListScream;
+			sourceTree = "<group>";
+		};
+		CCB9A36924C64D220014CE4E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CCB9A36A24C64D460014CE4E /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC65E9C924BBB71D003E0B33 /* Signos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC65E9F424BBB722003E0B33 /* Build configuration list for PBXNativeTarget "Signos" */;
+			buildPhases = (
+				CC65E9C624BBB71D003E0B33 /* Sources */,
+				CC65E9C724BBB71D003E0B33 /* Frameworks */,
+				CC65E9C824BBB71D003E0B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signos;
+			productName = Signos;
+			productReference = CC65E9CA24BBB71D003E0B33 /* Signos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC65E9DF24BBB722003E0B33 /* SignosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC65E9F724BBB722003E0B33 /* Build configuration list for PBXNativeTarget "SignosTests" */;
+			buildPhases = (
+				CC65E9DC24BBB722003E0B33 /* Sources */,
+				CC65E9DD24BBB722003E0B33 /* Frameworks */,
+				CC65E9DE24BBB722003E0B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC65E9E224BBB722003E0B33 /* PBXTargetDependency */,
+			);
+			name = SignosTests;
+			productName = SignosTests;
+			productReference = CC65E9E024BBB722003E0B33 /* SignosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC65E9EA24BBB722003E0B33 /* SignosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC65E9FA24BBB722003E0B33 /* Build configuration list for PBXNativeTarget "SignosUITests" */;
+			buildPhases = (
+				CC65E9E724BBB722003E0B33 /* Sources */,
+				CC65E9E824BBB722003E0B33 /* Frameworks */,
+				CC65E9E924BBB722003E0B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC65E9ED24BBB722003E0B33 /* PBXTargetDependency */,
+			);
+			name = SignosUITests;
+			productName = SignosUITests;
+			productReference = CC65E9EB24BBB722003E0B33 /* SignosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC65E9C224BBB71D003E0B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Maria Clara Lopes";
+				TargetAttributes = {
+					CC65E9C924BBB71D003E0B33 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CC65E9DF24BBB722003E0B33 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CC65E9C924BBB71D003E0B33;
+					};
+					CC65E9EA24BBB722003E0B33 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CC65E9C924BBB71D003E0B33;
+					};
+				};
+			};
+			buildConfigurationList = CC65E9C524BBB71D003E0B33 /* Build configuration list for PBXProject "Signos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC65E9C124BBB71D003E0B33;
+			productRefGroup = CC65E9CB24BBB71D003E0B33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC65E9C924BBB71D003E0B33 /* Signos */,
+				CC65E9DF24BBB722003E0B33 /* SignosTests */,
+				CC65E9EA24BBB722003E0B33 /* SignosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC65E9C824BBB71D003E0B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC65E9DA24BBB721003E0B33 /* LaunchScreen.storyboard in Resources */,
+				CC65E9D724BBB721003E0B33 /* Assets.xcassets in Resources */,
+				CC65E9D524BBB71D003E0B33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC65E9DE24BBB722003E0B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC65E9E924BBB722003E0B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC65E9C624BBB71D003E0B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC65E9CE24BBB71D003E0B33 /* AppDelegate.swift in Sources */,
+				CC81151C24CB0EA2000EF1E7 /* SignosFactory.swift in Sources */,
+				CC65E9D024BBB71D003E0B33 /* SceneDelegate.swift in Sources */,
+				CC3E073424C8EDAB00BD3D6A /* Signos.swift in Sources */,
+				CCED6E0224BFB949002C5EEF /* ListTableViewController.swift in Sources */,
+				CCB9A36B24C64D460014CE4E /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC65E9DC24BBB722003E0B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC65E9E524BBB722003E0B33 /* SignosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC65E9E724BBB722003E0B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC65E9F024BBB722003E0B33 /* SignosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC65E9E224BBB722003E0B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC65E9C924BBB71D003E0B33 /* Signos */;
+			targetProxy = CC65E9E124BBB722003E0B33 /* PBXContainerItemProxy */;
+		};
+		CC65E9ED24BBB722003E0B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC65E9C924BBB71D003E0B33 /* Signos */;
+			targetProxy = CC65E9EC24BBB722003E0B33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC65E9D324BBB71D003E0B33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC65E9D424BBB71D003E0B33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC65E9D824BBB721003E0B33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC65E9D924BBB721003E0B33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC65E9F224BBB722003E0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC65E9F324BBB722003E0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC65E9F524BBB722003E0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3MA8VSY44;
+				INFOPLIST_FILE = Signos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariaclaralopes.Signos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC65E9F624BBB722003E0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3MA8VSY44;
+				INFOPLIST_FILE = Signos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariaclaralopes.Signos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC65E9F824BBB722003E0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariaclaralopes.SignosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signos.app/Signos";
+			};
+			name = Debug;
+		};
+		CC65E9F924BBB722003E0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariaclaralopes.SignosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signos.app/Signos";
+			};
+			name = Release;
+		};
+		CC65E9FB24BBB722003E0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariaclaralopes.SignosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Signos;
+			};
+			name = Debug;
+		};
+		CC65E9FC24BBB722003E0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariaclaralopes.SignosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Signos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC65E9C524BBB71D003E0B33 /* Build configuration list for PBXProject "Signos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC65E9F224BBB722003E0B33 /* Debug */,
+				CC65E9F324BBB722003E0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC65E9F424BBB722003E0B33 /* Build configuration list for PBXNativeTarget "Signos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC65E9F524BBB722003E0B33 /* Debug */,
+				CC65E9F624BBB722003E0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC65E9F724BBB722003E0B33 /* Build configuration list for PBXNativeTarget "SignosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC65E9F824BBB722003E0B33 /* Debug */,
+				CC65E9F924BBB722003E0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC65E9FA24BBB722003E0B33 /* Build configuration list for PBXNativeTarget "SignosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC65E9FB24BBB722003E0B33 /* Debug */,
+				CC65E9FC24BBB722003E0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC65E9C224BBB71D003E0B33 /* Project object */;
+}
