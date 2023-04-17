@@ -9,4 +9,4 @@ O objetivo do aplicativo é estudo com a lista de todos os signos e suas caracte
 
 Exemplo 
 
-<img src="ImagesProject/Signos.jpeg" width="260" >   <img src="ImagesProject/Home.jpeg" width="260" >  <img src="ImagesProject/Detail.jpeg" width="260" > 
+<img src="ImagesProject/Signos.png" width="260" >   <img src="ImagesProject/Home.png" width="260" >  <img src="ImagesProject/Detail.png" width="260" > 
